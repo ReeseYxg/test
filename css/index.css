@@ -1,0 +1,287 @@
+﻿	    body,input,div,ul,li{
+		    margin: 0px;
+		    padding: 0px;
+	    }
+	    body{
+	    	background-color: #f5f5f5;
+	    }
+	    input{
+	    	border: 0 none;
+	    	outline-style:none;
+	    }
+	    ul,li{
+	    	list-style: none;
+	    }
+	    a{
+	    	text-decoration: none;
+	    }
+	    .clearfix:after{
+		content: ".";
+		display: block;
+		height: 0;
+		line-height: 0;
+		visibility: hidden;
+		clear:both;
+	    }
+	    .clearfix{
+		zoom: 1;
+	    }
+	    .fl{
+	    	float: left;
+	    }
+	    .fr{
+	    	float: right;
+	    }
+	    /*顶部样式*/
+		.head{
+			height: 38px;
+            margin-top: 10px;
+            background: #000;
+		}
+		.box{
+			width: 1180px;
+			height: 38px;
+			/*background-color: red;*/
+			margin: 0 auto;
+		}
+		.pic{
+              height: 16px;
+              margin-top: 11px;
+		}
+	    .search{
+		    width: 195px;
+		    height: 30px;
+		    margin-top: 3px;
+		    margin-right: -20px;
+		    border:1px solid #ECECEC;
+	    }
+	    .search input[type="text"]{
+		    width: 165px;
+		    height: 30px;
+		    vertical-align: top;
+		
+	    }
+	    .search input[type="button"]{
+		    width: 30px;
+		    height: 30px;
+		    vertical-align: top;
+		    background: url("../image/search2.jpg");
+		
+	    }
+	    /*导航栏样式*/
+		.nav{
+			height: 36px;
+		    width: 100%;
+		    margin: 26px auto 26px;
+		    background-color: #fff;
+		}
+		.nav-con{
+			height: 36px;
+			width: 580px;
+			float: right;
+			overflow: hidden;
+			margin-right:100px;
+		}
+		.nav ul li{
+			float: left;
+		}
+		.nav ul li ul{
+			position: absolute;
+			display: none;
+			background-color: #fff;
+		}
+		.nav ul li ul li{
+			float: none;
+		}
+		.nav ul li ul li a{
+			border: none;
+		}
+		.nav ul li:hover ul{
+			display: block;
+		}
+		.nav ul li a{
+			display:inline-block;
+			height: 36px;
+			text-align: center;
+			font: 16px/36px microsoft yahei;
+			color:#000;
+			padding:0 18px;
+		}
+		.nav ul li a:hover{
+			color: #82ca9a
+		}
+        .nav-con .one{
+        	color: #82ca9a;
+        }
+        /*banner图样式*/
+        .banner img{
+        	width: 100%;
+        	height: 100%;
+        	min-width: 800px;
+        }
+        /*固定悬浮框样式*/
+/*        .sidebar{
+        	height: 200px;
+        	background: #fff;
+        	position: fixed;
+        	z-index: 5;
+        	box-shadow: 1px 2px 1px #888888;
+        }
+        .sidebar li{
+        	margin-top: 10px;
+        	border-bottom: 1px solid #bfbfbf;
+        }
+        .sidebar li a{
+        	color: #000;
+        }
+        .sidebar li a:hover{
+        	color: #82ca9a;
+        }*/
+        /*主菜单部分*/
+        .menu{
+        	width: 980px;
+        	margin:15px auto;
+        }
+        .pro,.news,.contact{
+		    border:1px solid #E4E4E4;
+		    height: 224px;
+		    background-color: #fff;
+	    }
+	    .pro{
+			width: 310px;
+			position: relative;
+		}
+		.news{
+			width: 373px;
+			margin-left:12px;
+		}
+		.contact{
+			width: 268px;
+		}
+		.p-pic,.c-pic,.n-pic{
+			margin: 14px 0 0 6px;
+			color:#7AB800;
+		}
+		.menu img{
+			vertical-align: middle;
+		}
+		.p-cen{
+			position: absolute;
+			left:55px;
+			top:45px;
+		}
+		.p-left{
+			position: absolute;
+			left:23px;
+			bottom:90px;
+		}
+		.p-right{
+			position: absolute;
+			right:23px;
+			bottom:90px;
+		}
+		.news ul{
+		    margin:10px 17px 0;
+
+		}
+		.news ul li{
+			height: 27px;
+			line-height: 27px;
+			border-bottom: 1px dashed #DCDCDC;
+		}
+		.news ul li a{
+			color:#000;
+		}
+		.news ul li a:hover{
+			color: #82ca9a;
+		}
+		.news ul li a.china{
+			color:#82ca9a;
+			font-weight: 700;
+		}
+		.tec{
+		    margin: 10px 0 30px 28px;
+		
+		}
+		.tec li{
+			border-left: 2px solid #82ca9a;
+			margin-bottom: 5px;
+		}
+		.tec li a{
+            height: 12px;
+            line-height: 12px;
+            font-size: 16px;
+            color: #000;
+            padding-left: 5px;
+		}
+		.tec li a:hover{
+			color: #82ca9a;
+		}
+		.contact p{
+			margin-left:28px;
+			line-height: 18px;
+		}
+		/*底部信息栏样式*/
+		.foot{
+			background-color: #fff;
+			border-top: 1px dotted #ddd; 
+		}
+		.first,.second,.third,.four,.five{
+			margin:40px 40px;
+		}
+		.foot span{
+			display: block;
+			margin-bottom: 20px;
+		}
+		.foot li{
+			margin-bottom: 10px;
+		}
+		.foot li a{
+			font:12px microsoft yahei ;
+			color: #aaa;
+		}
+		.foot li a:hover{
+			color: #990000;S
+		}
+		.wechat{ 
+			width: 160px;
+			height: 152px;
+			margin-top: 40px;
+            border-right: 1px solid #aaa;
+            border-left: 1px solid #aaa;
+		}
+		.w-pic{
+			width: 81px;
+			height: 80px;
+            margin-top: 36px;
+            margin-left:40px; 
+		}
+		.wechat span{
+			margin-left: 31px;
+		}
+		.new{
+			width: 360px;
+			height: 120px;
+			margin-top: 52px;
+			margin-right:48px;
+
+		}
+		.new img{
+			vertical-align: middle;
+		}
+		.new p{
+			font-size: 14px;
+			line-height:21px; 
+		}
+		.root{
+			width: 100%;
+			background-color: #fff;
+		}
+		.copyright{
+	        float: right;
+		}
+		.copyright p{
+			font-size: 14px;
+			color: #aaa;
+			margin: 0;
+		}
